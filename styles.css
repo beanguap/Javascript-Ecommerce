@@ -26,6 +26,10 @@
     border: 1px solid #2D2A32;
 }
 
+#cart {
+    margin-left: 5rem;
+}
+
 .form-inline {
     text-align: center; 
 }
@@ -166,10 +170,9 @@ h2  {
 
 .shop-item-button {
     border-radius: 30px;
-    margin-left: 40px;
     margin-top: 10px;
-    margin-bottom: 10px;
     padding: 10px;
+    display: grid;
     background-color: #FAFDF6;
     color: #023047;
     border: 2px solid #023047;
@@ -192,4 +195,25 @@ h2  {
 
 #cat-litter {
     padding-bottom: 10rem;
+}
+
+.shop-item-details {
+    display: flex; 
+    align-items: center;
+}
+.shop-item-button {
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.bi.bi-dash-lg,
+.bi.bi-plus-lg {
+    padding-top: 10px;
+    font-size: 30px; /* Adjust the size of specific icons */
+}
+
+.quantity {
+    padding-top: 10px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
