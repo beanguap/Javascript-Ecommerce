@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Javascript-Cart</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="src/styles.css">
         <link rel="stylesheet" href="node_modules/modern-css-reset/src/reset.css">
-        <script src="index.js" async defer></script>
+        
         <!-- bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
@@ -31,12 +31,15 @@
                     </div>
                     <form class="form-inline">
                         <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button id="search-btn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        <img id="cart" src="src/svgs/cart.svg" width="40" height="40" class="d-inline-block align-top" alt="">
+                        <button id="search-btn" class="btn  my-2 my-sm-0" type="submit">Search</button>
+                        <div class="cart-container">
+                            <a href="cart.html">
+                            <img id="cart" src="src/svgs/cart.svg" width="40" height="40" class="d-inline-block align-top" alt=""></a>
+                            <div id="cartAmount" class="cartAmount">0</div>
+                        </div>
                     </form>
                 </nav>
             </div>
-                <h1 class="shop-name">WhiskerHub</h1>
         </header>
         <!-- about section -->
         <section class="section-left">
@@ -181,4 +184,5 @@
     </footer>
   <!-- Footer -->
     </body>
+    <script src="index.js" async defer></script>
 </html>
