@@ -27,17 +27,27 @@
 }
 
 #cart {
-    margin-left: 5rem;
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+.cart-container {
+    display: flex;
+    align-items: center;
+}
+
+.cartAmount {
+    margin-left: 5px;
 }
 
 .form-inline {
-    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .form-inline input,
 .form-inline button {
-    display: inline-block;
-    vertical-align: middle;
+    margin-right: 10px; 
 }
 
 .container {
@@ -202,13 +212,14 @@ h2  {
     align-items: center;
 }
 .shop-item-button {
-    margin-right: 10px; /* Adjust margin as needed */
+    margin-right: 10px; 
 }
 
 .bi.bi-dash-lg,
 .bi.bi-plus-lg {
     padding-top: 10px;
-    font-size: 30px; /* Adjust the size of specific icons */
+    font-size: 30px; 
+    cursor: pointer;
 }
 
 .quantity {
