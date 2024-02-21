@@ -22,14 +22,14 @@ let generateShop = () => {
                     <p class="item-description">${desc}</p>
                 </div>
                     <span class="shop-item-price">${price}</span>
-                    <div class="shop-item-details">
+                <div class="shop-item-details">
                         <button class="shop-item-button" type="button">ADD TO CART
                         </button>
-                    <i onclick="decrement('${id}')" class="bi bi-dash-lg"></i>
-                    <div id=${id} class="quantity">
-                    ${search.item === undefined? 0: search.item}
-                    </div>
-                    <i onclick="increment('${id}')" class="bi bi-plus-lg"></i>
+                        <i onclick="decrement('${id}')" class="bi bi-dash-lg"></i>
+                        <div id=${id} class="quantity">
+                        ${search.item === undefined? 0: search.item}
+                        </div>
+                        <i onclick="increment('${id}')" class="bi bi-plus-lg"></i>
                 </div>
         </div>`
     }).join(""));
