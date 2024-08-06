@@ -29,6 +29,7 @@
                     </div>
                   </h1>
                   <p class="lead mb-4">Find the best cat products here</p>
+                  <a href="#products" class="btn btn-primary btn-lg">Explore Products</a>
                 </div>
               </div>
             </div>
@@ -37,33 +38,44 @@
       </div>
 
     <!-- Carousel Section -->
-    <section class="container mt-5">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div id="productCarousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="/src/imgs/cat-food/cat-food.png" class="d-block mx-auto carousel-img" alt="...">
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="product-card">
+                    <img src="/src/imgs/cat-food/cat-food.png" class="d-block w-100" alt="Cat Food 1">
+                    <h5>Premium Cat Food</h5>
+                    <p>Nutritious and delicious!</p>
+                  </div>
                 </div>
-                <div class="carousel-item">
-                  <img src="/src/imgs/cat-toy/cat-toy.png" class="d-block mx-auto carousel-img" alt="...">
+                <div class="col-md-4">
+                  <div class="product-card">
+                    <img src="/src/imgs/cat-toy/cat-toy.png" class="d-block w-100" alt="Cat Toy 1">
+                    <h5>Interactive Cat Toy</h5>
+                    <p>Hours of fun for your feline friend!</p>
+                  </div>
                 </div>
-                <div class="carousel-item">
-                  <img src="/src/imgs/cat-litter/cat-litter.png" class="d-block mx-auto carousel-img" alt="...">
+                <div class="col-md-4">
+                  <div class="product-card">
+                    <img src="/src/imgs/cat-litter/cat-litter.png" class="d-block w-100" alt="Cat Litter 1">
+                    <h5>Odor Control Litter</h5>
+                    <p>Keep your home fresh and clean!</p>
+                  </div>
                 </div>
               </div>
-              <!-- Carousel controls remain the same -->
             </div>
           </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md-12 text-center">
-            <div class="shop-now">
-              <button class="btn btn-primary shop-now-btn">Shop Now</button>
-            </div>
-          </div>
-        </div>
-      </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     <div id="footer"></div>
 
