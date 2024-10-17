@@ -50,18 +50,19 @@ bash
 .
 ├── node_modules/              # Dependencies (generated after npm install)
 ├── src/                       # Main source folder
-│   ├── components/            # Components for the app
+│   ├── components/            # Components for the app (e.g., Header, Footer)
 │   ├── imgs/                  # Images used in the project
-│   ├── pages/                 # Different pages like home, cart, etc.
-│   ├── svgs/                  # SVG assets
+│   ├── pages/                 # Different pages like Home, Store, etc.
+│   ├── svgs/                  # SVG assets used in the project
 │   ├── cart.js                # JavaScript for cart functionality
 │   ├── data.js                # Product data file
 │   ├── index.js               # Main JavaScript file
 │   └── styles.css             # Main CSS file for styling
-├── .DS_Store                  # System-generated file
+├── .DS_Store                  # System-generated file (can be ignored)
 ├── README.md                  # Project README file
 ├── package-lock.json          # npm lock file
 └── package.json               # npm configuration file
+
 
 
 🤝 Contributing
