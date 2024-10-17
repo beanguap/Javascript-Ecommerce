@@ -47,8 +47,6 @@ bash
 
 📂 Project Structure
 
-bash
-
 .
 ├── node_modules/              # Dependencies (generated after npm install)
 ├── src/                       # Main source folder
@@ -64,6 +62,7 @@ bash
 ├── README.md                  # Project README file
 ├── package-lock.json          # npm lock file
 └── package.json               # npm configuration file
+
 
 🤝 Contributing
 
